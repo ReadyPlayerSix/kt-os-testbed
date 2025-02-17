@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "[Your Last Name]"
+    given-names: "[Your First Name]"
+title: "K(t) Framework OS Testbed"
+version: 0.1.0
+date-released: 2025-02-16
+url: "https://github.com/[your-username]/kt-os-testbed"
+repository-code: "https://github.com/[your-username]/kt-os-testbed"
+license: Apache-2.0
+type: software
+keywords:
+  - operating systems
+  - resource optimization
+  - system performance
+  - pattern recognition
+  - K(t) framework
+abstract: >
+  The K(t) Framework OS Testbed is an experimental project implementing
+  advanced resource optimization at the operating system level. It combines
+  mathematical modeling with pattern recognition for dynamic system
+  performance enhancement.
