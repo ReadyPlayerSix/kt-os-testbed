@@ -1,0 +1,48 @@
+D:\Projects\kt-os-testbed
+├── docs/
+├── src/
+├── tests/
+├── tools/
+├── LICENSE.txt
+├── MANIFEST.in
+├── README.md
+├── requirements.txt
+├── setup.py
+├── tox.ini
+├── tree_gen.py
+│   ├── api/
+│   ├── architecture/
+│   ├── development/
+│   │   ├── reference.md
+│   │   ├── core-components.md
+│   │   ├── optimization.md
+│   │   ├── resource-management.md
+│   │   ├── kt-os-testbed.md
+│   │   ├── kt-project-structure.md
+│   │   ├── setup.md
+│   │   ├── testing.md
+│   ├── core/
+│   ├── monitoring/
+│   ├── optimization/
+│   ├── utils/
+│   │   ├── kt_optimizer.py
+│   │   ├── metrics.py
+│   │   ├── resource_manager.py
+│   │   ├── __init__.py
+│   │   ├── io_monitor.py
+│   │   ├── process_monitor.py
+│   │   ├── system_monitor.py
+│   │   ├── __init__.py
+│   │   ├── cache_optimizer.py
+│   │   ├── memory_optimizer.py
+│   │   ├── process_optimizer.py
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   ├── validators.py
+│   │   ├── __init__.py
+│   ├── analysis/
+│   ├── benchmark/
+│   │   ├── metrics_analyzer.py
+│   │   ├── performance_analyzer.py
+│   │   ├── memory_bench.py
+│   │   ├── process_bench.py
