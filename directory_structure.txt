@@ -1,15 +1,33 @@
 D:\Projects\kt-os-testbed
+├── data/
 ├── docs/
+├── kt_analysis/
+├── kt_monitor_sessions/
+├── kt_scan_data/
+├── logs/
 ├── src/
 ├── tests/
+├── test_data/
 ├── tools/
-├── LICENSE.txt
+├── CITATION.cff
+├── directory_structure.txt
+├── kt_coordinator.py
+├── LICENSE
 ├── MANIFEST.in
 ├── README.md
 ├── requirements.txt
 ├── setup.py
 ├── tox.ini
-├── tree_gen.py
+├── __init__.py
+│   ├── processed/
+│   ├── raw/
+│   ├── kt_session_20250217_165507.json
+│   ├── pattern_analysis.json
+│   │   ├── metrics_b2d42517_20250217_192913.csv
+│   │   ├── patterns_b2d42517_20250217_192913.csv
+│   │   ├── session_b2d42517_20250217_192910.json
+│   │   ├── pattern_b2d42517.json
+│   │   ├── system_info_b2d42517.json
 │   ├── api/
 │   ├── architecture/
 │   ├── development/
@@ -17,22 +35,105 @@ D:\Projects\kt-os-testbed
 │   │   ├── core-components.md
 │   │   ├── optimization.md
 │   │   ├── resource-management.md
+│   │   ├── kt-framework-design-update.md
+│   │   ├── kt-monitor-docs.md
 │   │   ├── kt-os-testbed.md
 │   │   ├── kt-project-structure.md
+│   │   ├── kt-project-structure.txt
+│   │   ├── project-status.md
 │   │   ├── setup.md
 │   │   ├── testing.md
+│   ├── kt_analysis_20250218_142655_browser.json
+│   ├── kt_analysis_20250218_143131_browser.json
+│   ├── kt_analysis_20250218_162202_streaming.json
+│   ├── kt_analysis_20250218_162933_streaming.json
+│   ├── kt_analysis_20250218_171010_gaming.json
+│   ├── kt_analysis_20250218_171206_telecall.json
+│   ├── kt_analysis_20250218_172553_telecall.json
+│   ├── 20250217_120318_115084ff/
+│   ├── 20250217_121157_1f83352c/
+│   ├── 20250217_121436_267e76f6/
+│   ├── 20250217_121930_f4ff3819/
+│   ├── 20250217_130432_bd904923/
+│   ├── 20250217_163143_67216d02/
+│   ├── 20250217_163837_e1254c70/
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_idle.json
+│   │   │   ├── raw_samples_idle.json
+│   │   │   ├── monitor_idle.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_media.json
+│   │   │   ├── raw_samples_media.json
+│   │   │   ├── monitor_media.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_light_gaming.json
+│   │   │   ├── raw_samples_light_gaming.json
+│   │   │   ├── monitor_light_gaming.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis.json
+│   │   │   ├── raw_samples.json
+│   │   │   ├── monitor.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_med_gaming.json
+│   │   │   ├── raw_samples_med_gaming.json
+│   │   │   ├── monitor_med_gaming.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_fresh.json
+│   │   │   ├── raw_samples_fresh.json
+│   │   │   ├── monitor_fresh.log
+│   │   ├── data/
+│   │   ├── logs/
+│   │   │   ├── pattern_analysis_e1254c70.json
+│   │   │   ├── raw_samples_e1254c70.json
+│   │   │   ├── monitor_e1254c70.log
+│   ├── kt_scan_20250218.log
+│   ├── kt_scan_20250218_094945.json
+│   ├── kt_scan_20250218_095218.json
+│   ├── kt_scan_20250218_102647.json
+│   ├── kt_scan_20250218_103111.json
+│   ├── kt_scan_20250218_103852.json
+│   ├── kt_scan_20250218_104445.json
+│   ├── kt_scan_20250218_104641.json
+│   ├── kt_scan_20250218_105049.json
+│   ├── kt_scan_20250218_135837.json
+│   ├── kt_scan_20250218_140214.json
+│   ├── system_info_20250218_094945.json
+│   ├── system_info_20250218_095218.json
+│   ├── system_info_20250218_102647.json
+│   ├── system_info_20250218_103111.json
+│   ├── system_info_20250218_103852.json
+│   ├── system_info_20250218_104445.json
+│   ├── system_info_20250218_104641.json
+│   ├── system_info_20250218_105049.json
+│   ├── system_info_20250218_135837.json
+│   ├── system_info_20250218_140214.json
+│   ├── kt_monitor.log
+│   ├── kt_monitor_20250217_165436.log
 │   ├── core/
 │   ├── monitoring/
 │   ├── optimization/
 │   ├── utils/
+│   ├── visualization/
 │   │   ├── kt_optimizer.py
 │   │   ├── metrics.py
 │   │   ├── resource_manager.py
 │   │   ├── __init__.py
+│   │   ├── components/
 │   │   ├── io_monitor.py
+│   │   ├── kt_integrated_monitor.py
+│   │   ├── kt_monitor.py
+│   │   ├── kt_quick_scan.py
+│   │   ├── kt_semantic_analyzer.py
 │   │   ├── process_monitor.py
-│   │   ├── system_monitor.py
 │   │   ├── __init__.py
+│   │   │   ├── kt-framework-viz.tsx
+│   │   │   ├── KTMonitorViz.tsx
 │   │   ├── cache_optimizer.py
 │   │   ├── memory_optimizer.py
 │   │   ├── process_optimizer.py
@@ -40,8 +141,50 @@ D:\Projects\kt-os-testbed
 │   │   ├── logger.py
 │   │   ├── validators.py
 │   │   ├── __init__.py
+│   │   ├── data_handler.py
+│   │   ├── native_display_full.py
+│   │   ├── native_display_v1.py
+│   │   ├── native_display_v2.py
+│   │   ├── test_display.py
+│   │   ├── __init__.py
+│   ├── performance/
+│   ├── result.3dmark-result
+│   │   ├── test_data/
+│   │   ├── test_harness.py
+│   │   ├── test_harness_v2.py
+│   │   ├── test_scenarios.json
+│   │   ├── __init__.py
+│   │   │   ├── scenario_cpu_intensive_20250218_041708.json
+│   │   │   ├── scenario_idle_20250218_024152.json
+│   │   │   ├── scenario_idle_20250218_030822.json
+│   │   │   ├── scenario_idle_20250218_031704.json
+│   │   │   ├── scenario_idle_20250218_032532.json
+│   │   │   ├── scenario_idle_20250218_033417.json
+│   │   │   ├── scenario_idle_20250218_034754.json
+│   │   │   ├── scenario_idle_20250218_035625.json
+│   │   │   ├── scenario_idle_20250218_041708.json
+│   │   │   ├── scenario_memory_intensive_20250218_041708.json
+│   │   │   ├── scenario_mixed_load_20250218_041708.json
+│   │   │   ├── system_info_20250218_023654.json
+│   │   │   ├── system_info_20250218_024152.json
+│   │   │   ├── system_info_20250218_030822.json
+│   │   │   ├── system_info_20250218_031704.json
+│   │   │   ├── system_info_20250218_032532.json
+│   │   │   ├── system_info_20250218_033417.json
+│   │   │   ├── system_info_20250218_034754.json
+│   │   │   ├── system_info_20250218_035625.json
+│   │   │   ├── system_info_20250218_040457.json
+│   │   │   ├── system_info_20250218_041708.json
+│   │   │   ├── test_harness_20250217.log
+│   │   │   ├── test_harness_20250218.log
+│   │   │   ├── test_scenarios.json
+│   ├── scenario_cpu_intensive_20250217_204342.json
+│   ├── scenario_idle_20250217_204342.json
+│   ├── system_info_20250217_204342.json
+│   ├── test_harness_20250217.log
 │   ├── analysis/
 │   ├── benchmark/
+│   ├── tree_gen.py
 │   │   ├── metrics_analyzer.py
 │   │   ├── performance_analyzer.py
 │   │   ├── memory_bench.py
