@@ -87,3 +87,17 @@ core_algorithms/
 proprietary/
 algorithms.py
 kt_core.py
+
+# Analysis and monitoring data
+kt_analysis/
+kt_monitor_sessions/
+kt_scan_data/
+test_data/
+
+# Private implementations
+src/monitoring/components/
+src/monitoring/kt_semantic_analyzer.py
+src/monitoring/kt_quick_scan.py
+
+# Private test data
+tests/performance/result.3dmark-result
