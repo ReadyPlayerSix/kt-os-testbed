@@ -1,0 +1,18 @@
+{
+  "idle": {
+    "duration": 300,
+    "description": "System idle baseline"
+  },
+  "cpu_intensive": {
+    "duration": 300,
+    "description": "High CPU usage"
+  },
+  "memory_intensive": {
+    "duration": 300,
+    "description": "High memory usage"
+  },
+  "mixed_load": {
+    "duration": 300,
+    "description": "Combined CPU and memory load"
+  }
+}
