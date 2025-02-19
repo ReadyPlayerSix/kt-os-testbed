@@ -1,0 +1,14 @@
+{
+  "duration": 28.0,
+  "samples": 28,
+  "patterns": {
+    "cpu_efficiency": {
+      "average": 0.045948660714285716,
+      "stability": 0.781
+    },
+    "memory_patterns": {
+      "average_pressure": 0.21967857142857142,
+      "pressure_stability": 0.999
+    }
+  }
+}

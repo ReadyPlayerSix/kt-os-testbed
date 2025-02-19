@@ -1,0 +1,177 @@
+[
+  {
+    "type": "idle",
+    "efficiency": 0.0052812934201379325,
+    "stability": 0.9812273474955764,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:30.816879"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0033391336638096416,
+    "stability": 0.9914124017536898,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:31.815787"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.003531326471819321,
+    "stability": 0.9914124017536898,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:33.629434"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.009764385437886148,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:34.636349"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.01072284685105782,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:35.628250"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.010836585148906282,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:36.634164"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.010836585148906282,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:37.641079"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.010726779254842753,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:38.626974"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.01134338158976506,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:39.626883"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.011260966826055334,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:40.636800"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.011123624358534302,
+    "stability": 0.9290818120930217,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:41.634707"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.011243458945904316,
+    "stability": 0.9294560103296245,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:42.639620"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.01114823949854021,
+    "stability": 0.9294560103296245,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:43.628518"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.004341001271792022,
+    "stability": 0.989041961193073,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:44.632430"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0035511934821481654,
+    "stability": 0.9935592298285205,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:45.636342"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.003207777567439026,
+    "stability": 0.9931850315919176,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:46.633248"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.00326266813547995,
+    "stability": 0.9931850315919176,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:47.629153"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.003372216729869698,
+    "stability": 0.9931850315919176,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:48.636067"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0028380198755749444,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:49.637977"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0028006000519146543,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:50.638886"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0028006000519146543,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:51.642799"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.00296534602849429,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:52.630696"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.002997004192750179,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:53.629603"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0027498434524608176,
+    "stability": 0.9965658408529086,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:54.638519"
+  },
+  {
+    "type": "idle",
+    "efficiency": 0.0025537275242651617,
+    "stability": 0.9966052886800942,
+    "duration": 10,
+    "timestamp": "2025-02-17T19:28:55.628419"
+  }
+]

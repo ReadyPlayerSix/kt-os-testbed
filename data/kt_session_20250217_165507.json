@@ -1,0 +1,26 @@
+{
+  "timestamp": "20250217_165507",
+  "system_info": {
+    "cpu_count": 8,
+    "thread_count": 16,
+    "memory_total": 68624654336,
+    "has_smt": true
+  },
+  "analysis": {
+    "duration": 28.0,
+    "samples": 28,
+    "patterns": {
+      "efficiency": {
+        "average": 0.9171764361646231,
+        "stability": 0.9848364495427679
+      },
+      "cognitive_load": {
+        "average": 0.8566146507221094,
+        "stability": 0.5643346351945037
+      },
+      "workload_distribution": {
+        "med_gaming": 1.0
+      }
+    }
+  }
+}
