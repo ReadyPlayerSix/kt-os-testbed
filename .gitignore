@@ -101,3 +101,13 @@ src/monitoring/kt_quick_scan.py
 
 # Private test data
 tests/performance/result.3dmark-result
+
+# Data directories
+/data/
+/data/raw/
+/data/processed/
+
+# Implementation and analysis
+/logs/
+/semantic_analysis/
+/src/monitoring/
