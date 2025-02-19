@@ -1,8 +1,0 @@
-{
-  "cpu_count": 8,
-  "thread_count": 16,
-  "memory_total": 68624654336,
-  "has_smt": true,
-  "cpu_base_freq": 3801.0,
-  "cpu_max_freq": 3801.0
-}
